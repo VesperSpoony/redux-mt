@@ -49,11 +49,13 @@
       background-repeat: no-repeat;
       flex-shrink: 0;
     }
+
     .icon.fill {
       background: url(https://zqran.gitee.io/images/waimai/cart-2.png);
       background-size: contain;
       background-repeat: no-repeat;
     }
+
     .cartCornerMark {
       position: absolute;
       right: -5px;
@@ -68,22 +70,27 @@
       width: 30px;
       height: 30px;
     }
+
     .main {
       flex: 1 1 auto;
       font-size: 12px;
     }
+
     .payableAmount {
       font-size: 22px;
       color: #fff;
       margin-right: 5px;
     }
+
     .payableAmountUnit {
       font-size: 14px;
       display: inline-block;
     }
+
     .text {
       font-size: 12px;
     }
+
     .minFee {
       font-size: 14px;
       font-weight: 500;
@@ -91,6 +98,7 @@
       line-height: 50px;
       color: #ffffff;
     }
+
     .goToPreview {
       color: #333;
       font-weight: 500;
@@ -135,6 +143,7 @@
         height: 16.5px;
         color: #33312e;
       }
+
       .clearCart {
         font-size: 12px;
         line-height: 16.5px;
@@ -143,6 +152,7 @@
         display: flex;
         -webkit-align-items: center;
         align-items: center;
+
         &::before {
           content: '';
           display: inline-block;
@@ -157,6 +167,7 @@
         }
       }
     }
+
     .scrollArea {
       max-height: 350px;
       overflow: scroll;
@@ -185,26 +196,31 @@
           background-color: rgba(232, 232, 232, 0.3);
         }
       }
+
       .shopPic {
         width: 60px;
         height: 60px;
         border-radius: 6px;
       }
+
       .main {
         margin-left: 10px;
         padding-right: 10px;
         flex: auto;
       }
+
       .skuInfo {
         flex: 1 1 auto;
         min-width: 0;
       }
+
       .name {
         font-weight: 600;
         font-size: 14px;
         line-height: 20px;
         color: #33312e;
       }
+
       .payableAmount {
         height: 29px;
         margin-top: 15px;
@@ -213,17 +229,20 @@
         font-weight: 600;
         color: #fb4e44;
       }
+
       .yuan {
         font-size: 12px;
         line-height: 16.5px;
         margin-top: 10px;
         width: 11.5px;
       }
+
       .price {
         font-size: 18px;
         line-height: 25px;
         margin-top: 4px;
       }
+
       .skuBtnWrapper {
         width: 70px;
         margin-top: 51.5px;
@@ -241,6 +260,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     overflow: hidden;
   }
+
   .cartOverlay.visible,
   .cartPanel.visible {
     display: block;
